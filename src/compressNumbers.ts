@@ -1,0 +1,10 @@
+export function compressNumbers(input: number[]): number[] {
+    if (input.length === 0) return [];
+    let arr = [input[0]];
+    for (let i = 1; i < input.length; i++) {
+        if (input[i] !== arr[arr.length - 1]){
+            arr.push(input[i]);
+        }
+    }
+    return arr;
+}
