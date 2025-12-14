@@ -1,2 +1,9 @@
-# compress_numbers
-Функция по удалению дубликатов из массива и тесты к ней
+## compressNumbers
+
+Удаляет подряд идущие дубликаты из массива чисел.
+
+### Install
+npm install
+
+### Run tests
+npm test
